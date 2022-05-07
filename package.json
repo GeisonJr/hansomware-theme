@@ -1,0 +1,49 @@
+{
+	"name": "hansomware-theme",
+	"displayName": "HansoMWarE Theme",
+	"description": "HansoMWarE theme for VS Code",
+	"version": "0.0.2",
+	"preview": true,
+	"publisher": "HansoMWarE",
+	"license": "MIT",
+	"icon": "icon.png",
+	"galleryBanner": {
+		"color": "#1b1f23",
+		"theme": "dark"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/hansomware-inc/hansomware-theme"
+	},
+	"bugs": {
+		"url": "https://github.com/hansomware-inc/hansomware-theme/issues"
+	},
+	"engines": {
+		"vscode": "^1.67.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"theme",
+		"hansomware",
+		"dark",
+		"protanopia",
+		"colorblind"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "HansoMWarE Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dark.json"
+			}
+		]
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"dependencies": {
+		"vsce": "^2.7.0"
+	}
+}
